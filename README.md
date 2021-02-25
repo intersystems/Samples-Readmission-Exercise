@@ -12,7 +12,7 @@ To run this demo environment, you will need git, Docker, and docker-compose set 
 Using the commands below, download or clone the repository, navigate to its directory, and compose the environment: 
 
 ```bash
-git clone https://github.com/isc-drobinso/Samples-Readmission-Exercise
+git clone https://github.com/intersystems/Samples-Readmission-Exercise
 cd Samples-Readmission-Exercise
 docker-compose up
 ```
@@ -23,7 +23,7 @@ If you receive an error about having insufficient space, you may need to clear p
 docker system prune -a
 ```
 
-The docker-compose process will take a few moments, but once completed, the terminal session will not return control to you; it will appear static. Simply leave the terminal window open and proceed with the remaining setup steps in **Exploring a Complete Data Solution in InterSystems IRIS for Health**. If you exit this terminal process, docker-compose will stop all the containers and stop the demo environment as a result.
+The docker-compose process will take a few moments, but once completed, the terminal session will not return control to you; it will appear static. Simply leave the terminal window open and proceed with the remaining setup steps in [Exploring a Complete Data Solution in InterSystems IRIS for Health](https://learning.intersystems.com/course/view.php?name=ReadmissionDemo). If you exit this terminal process, docker-compose will stop all the containers and stop the demo environment as a result.
 
 After you are done with the exercise, you can go back to the terminal session and press CTRL+C. Alternatively, and perhaps ideally, you can enter the following commands to stop containers that may still be running and remove them:
 
